@@ -47,7 +47,12 @@ INSERT IMAGE
   
   INSERT IMAGE
   
-## Future Features
+### Features Left to Implement
 * Donation button.
 * Adoption form.
 
+## Testing
+
+## Deployment
+
+## Credits
