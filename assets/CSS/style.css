@@ -9,4 +9,19 @@
 body {
     font-family: Catamaran, sans-serif;
     font-weight: 300;
+    color: rgb(45, 36, 36);
+}
+
+/* Headings and logo */
+
+h1, h2 {
+    font-family: Catamaran, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: coral;
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
 }
