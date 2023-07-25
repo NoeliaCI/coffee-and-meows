@@ -55,3 +55,36 @@ h1, h2 {
 .active {
     border-bottom: 1px solid black;
 }
+
+/* main image */
+
+#main-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#main-image {
+    height: 500px;
+    width: 100%;
+    background-image: url(../images/main-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    /* zoom effect on loading page */
+    animation-name: main-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* level of zoom for main image */
+
+@keyframes main-zoom {
+    from{
+        transfrom: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
