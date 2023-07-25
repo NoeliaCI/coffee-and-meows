@@ -56,12 +56,18 @@ h1, h2 {
     border-bottom: 1px solid black;
 }
 
-/* main image */
+/* main image and cover text*/
 
 #main-outer {
     height: 500px;
     width: 100%;
     overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color:black;
 }
 
 #main-image {
@@ -82,9 +88,30 @@ h1, h2 {
 
 @keyframes main-zoom {
     from{
-        transfrom: scale(1);
+        transform: scale(1);
     }
     to{
         transform: scale(1.1);
     }
+}
+
+#cover-text {
+    font-size: 90%;
+    font-family: Catamaran, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    width: 300px;
+    height: 100px;
+
+    padding-top: 20px;
+    padding-left: 10px;
+
+    background-color: rgb(241, 228, 228);
+    opacity: 0.8;
+
+    bottom: 10px;
+    right: 20px;
+
+    position: absolute;
 }
