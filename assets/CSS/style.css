@@ -24,6 +24,8 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 250%;
+    margin-left: 20px;
+
 }
 
 /* navigation links */
@@ -114,4 +116,20 @@ h1, h2 {
     right: 20px;
 
     position: absolute;
+}
+
+#welcome {
+    height: 500px;
+}
+
+#left-image {
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+}
+
+#right-text {
+    padding-top: 30px;
+    width: 50%;
+    float: right;
 }
