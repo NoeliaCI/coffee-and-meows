@@ -21,7 +21,8 @@ body {
 
 /* Headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Catamaran, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -42,7 +43,8 @@ h1, h2 {
     letter-spacing: 1px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -75,8 +77,9 @@ h1, h2 {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
-    color:black;
+#cover-text,
+#cover-text h2 {
+    color: black;
 }
 
 #main-image {
@@ -86,7 +89,8 @@ h1, h2 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
+
+
     /* zoom effect on loading page */
     animation-name: main-zoom;
     animation-duration: 5s;
@@ -96,10 +100,11 @@ h1, h2 {
 /* level of zoom for main image */
 
 @keyframes main-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
     }
 }
@@ -128,33 +133,46 @@ h1, h2 {
 #welcome h1 {
 
     text-align: center;
+    font-size: 200%;
 }
 
 #welcome {
     height: 500px;
 }
 
+/* styling for left side of welcome section */
+
 #left-image {
+
     padding-top: 30px;
+    padding-left: 30px;
     width: 50%;
     float: left;
 }
 
+/* style for welcome image on left side of welcome section */
+
+.welcome-image {
+
+    border-radius: 60%;
+    border: 3px solid black;
+}
+
 #right-text {
-    padding-top: 30px;
-    padding-left: 30px;
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 30px;
+
     width: 50%;
     float: right;
     font-size: 120%;
     text-align: center;
 }
 
-/* Main content */
+/* make main content push footer down */
 
 section {
-    background-color: rgb(66, 196, 196);
-
- /* make main content push footer down */ 
 
     flex: 1 0 auto;
+
 }
