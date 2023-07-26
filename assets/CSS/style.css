@@ -1,15 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Merriweather+Sans:wght@300&display=swap');
 
+/* asterisk to override default styles */
+
 * {
     margin: 0;
     padding: 0;
-    border: none;
+    box-sizing: border-box;
 }
 
 body {
     font-family: Catamaran, sans-serif;
     font-weight: 300;
     color: rgb(45, 36, 36);
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Headings and logo */
@@ -18,7 +24,7 @@ h1, h2 {
     font-family: Catamaran, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: coral;
+    color: rgb(12, 12, 12);
 }
 
 #logo {
@@ -104,7 +110,7 @@ h1, h2 {
     letter-spacing: 1px;
 
     width: 300px;
-    height: 100px;
+    height: 150px;
 
     padding-top: 20px;
     padding-left: 10px;
@@ -112,7 +118,7 @@ h1, h2 {
     background-color: rgb(241, 228, 228);
     opacity: 0.8;
 
-    bottom: 10px;
+    bottom: 20px;
     right: 20px;
 
     position: absolute;
@@ -132,4 +138,14 @@ h1, h2 {
     padding-top: 30px;
     width: 50%;
     float: right;
+}
+
+/* Main content */
+
+section {
+    background-color: aqua;
+
+ /* make main content push footer down */ 
+   
+    flex: 1 0 auto;
 }
