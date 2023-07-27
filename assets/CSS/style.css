@@ -185,14 +185,13 @@ section {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
 }
 
-#benefits-right  {
+#benefits-right {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: green;
+
 }
 
 #benefits-center {
@@ -200,4 +199,33 @@ section {
     margin: 0 auto;
     background-color: red;
 
+}
+
+hr {
+    border-top: 1px solid black;
+    width: auto;
+    margin: 4px 0;
+}
+
+.benefits-left-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.benefits-right-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+.benefits-right-heading h3 {
+    text-align: right;
+}
+
+.benefits-right-heading p {
+    text-align: right;
 }
