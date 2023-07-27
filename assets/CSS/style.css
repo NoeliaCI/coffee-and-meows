@@ -142,16 +142,13 @@ h2 {
 }
 
 .welcome-box {
-        width: 80%;
-        padding: 30px;
-        border: 2px solid rgb(17, 11, 11);
-        margin-top: 25px;
-        margin-bottom: 75px;
-        margin-right: 50px;
-        margin-left: 10%;
-
-        border-radius: 10px;
-        
+    width: 80%;
+    padding: 30px;
+    border: 3px double black;
+    margin-top: 25px;
+    margin-bottom: 75px;
+    margin-right: 50px;
+    margin-left: 10%;
 }
 
 #welcome-text {
@@ -162,7 +159,7 @@ h2 {
 
     margin-left: 25%;
     margin-top: 25px;
-    
+
 }
 
 #paw {
@@ -175,7 +172,32 @@ h2 {
 /* make main content push footer down */
 
 section {
-
     flex: 1 0 auto;
+}
+
+/* Cat benefits section */
+
+#cat-benefits {
+    height: 500px;
+}
+
+#benefits-left {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+
+#benefits-right  {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: green;
+}
+
+#benefits-center {
+    width: 33%;
+    margin: 0 auto;
+    background-color: red;
 
 }
