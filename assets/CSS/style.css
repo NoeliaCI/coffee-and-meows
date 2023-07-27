@@ -133,40 +133,43 @@ h2 {
 #welcome h1 {
 
     text-align: center;
-    font-size: 200%;
+    font-size: 180%;
+    margin-top: 30px;
 }
 
 #welcome {
     height: 500px;
 }
 
-/* styling for left side of welcome section */
+.welcome-box {
+        width: 80%;
+        padding: 30px;
+        border: 3px solid rgb(17, 11, 11);
+        margin-top: 25px;
+        margin-bottom: 75px;
+        margin-right: 50px;
+        margin-left: 10%;
 
-#left-image {
-
-    padding-top: 30px;
-    padding-left: 30px;
-    width: 50%;
-    float: left;
+        border-radius: 10px;
+        
 }
 
-/* style for welcome image on left side of welcome section */
-
-.welcome-image {
-
-    border-radius: 60%;
-    border: 3px solid black;
-}
-
-#right-text {
-    padding-top: 80px;
-    padding-left: 20px;
-    padding-right: 30px;
+#welcome-text {
 
     width: 50%;
-    float: right;
     font-size: 120%;
     text-align: center;
+
+    margin-left: 25%;
+    margin-top: 25px;
+    
+}
+
+#paw {
+    text-align: center;
+    font-size: larger;
+    margin-top: 50px;
+    letter-spacing: 10px;
 }
 
 /* make main content push footer down */
