@@ -79,7 +79,7 @@ h2 {
 
 #cover-text,
 #cover-text h2 {
-    color: black;
+    color: #A0522D;
 }
 
 #main-image {
@@ -131,7 +131,7 @@ h2 {
 }
 
 #welcome h1 {
-    color: coral;
+    color: #A0522D;
     text-align: center;
     font-size: 180%;
     margin-top: 30px;
@@ -252,4 +252,28 @@ hr {
 #circle-cover {
     background: url('../images/benefits-image.jpg') no-repeat center center;
     height: 100%;
+    border-radius: 50%;
+}
+
+/* Rules section */
+
+#house-rules h2 {
+    color: #A0522D;
+    text-align: center;
+    font-size: 180%;
+    margin-top: 30px;
+}
+
+#house-rules-text li {
+    list-style-type: none;
+}
+
+#house-rules-text {
+    width: 50%;
+        font-size: 120%;
+        text-align: justify;
+    
+        margin-left: 25%;
+        margin-top: 25px;
+    
 }
