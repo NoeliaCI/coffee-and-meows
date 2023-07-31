@@ -142,7 +142,7 @@ header>a {
     position: absolute;
 }
 
-#welcome h1 {
+#welcome h2 {
     color: #A0522D;
     text-align: center;
     font-size: 180%;
@@ -253,7 +253,7 @@ hr {
     color: #A0522D;
     text-align: center;
     font-size: 180%;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 #house-rules-text li {
@@ -266,7 +266,7 @@ hr {
     text-align: justify;
 
     margin-left: 25%;
-    margin-top: 25px;
+    margin-top: 20px;
 
 }
 
@@ -275,9 +275,9 @@ hr {
 footer {
     display: flex;
     justify-content: space-evenly;
-    align-items: center center;
+    align-items: baseline;
 
-    height: 160px;
+    height: 220px;
     width: 100%;
     margin-top: 40px;
     background-color: #A0522D;
@@ -295,4 +295,13 @@ footer ul {
 
 footer div {
     margin-top: 10px;
+}
+
+
+th {
+    text-align: justify;  
+}
+
+table {
+    border-spacing: 30px 0px;
 }
