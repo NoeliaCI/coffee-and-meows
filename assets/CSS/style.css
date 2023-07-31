@@ -13,7 +13,7 @@ body {
     font-weight: 300;
     color: rgb(45, 36, 36);
 
-    
+
 }
 
 main {
@@ -32,14 +32,14 @@ h2 {
 }
 
 header {
-    	    display: flex;
-    	    justify-content: space-between;
-    	    align-items: center;
-    	    padding-left: 20px;
-    	    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-#logo {   
+#logo {
     font-size: 250%;
 }
 
@@ -189,63 +189,42 @@ section {
 
 /* Cat benefits section */
 
+#benefits-header {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 180%;
+}
+
 #cat-benefits {
     height: 500px;
     font-size: 110%;
+    text-align: center;
+    max-width: 1200px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+
+.cats-benefits-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cats-benefits-flex>div {
+    width: 100%;
 }
 
 #benefits-left {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
+    text-align: left;
 }
 
 #benefits-right {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-
-}
-
-#benefits-center {
-    width: 33%;
-    margin: 0 auto;
-
+    text-align: right;
 }
 
 hr {
     border-top: 1px solid black;
     width: auto;
     margin: 4px 0;
-}
-
-.benefits-left-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.benefits-right-heading {
-    width: 60%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-.benefits-right-heading h3 {
-    text-align: right;
-}
-
-.benefits-right-heading p {
-    text-align: right;
-}
-
-#benefits-header {
-    text-align: center;
-    margin: 30px 0;
-    font-size: 180%;
 }
 
 /* Circle container for image in health benefits section */
@@ -259,7 +238,7 @@ hr {
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
-    
+
 }
 
 #circle-cover {
@@ -283,12 +262,12 @@ hr {
 
 #house-rules-text {
     width: 50%;
-        font-size: 120%;
-        text-align: justify;
-    
-        margin-left: 25%;
-        margin-top: 25px;
-    
+    font-size: 120%;
+    text-align: justify;
+
+    margin-left: 25%;
+    margin-top: 25px;
+
 }
 
 /*Footer*/
@@ -297,14 +276,14 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center center;
-    
+
     height: 160px;
     width: 100%;
     margin-top: 40px;
     background-color: #A0522D;
-    
+
     border: 3px solid #57220a;
-    
+
 }
 
 footer ul {
@@ -317,6 +296,3 @@ footer ul {
 footer div {
     margin-top: 10px;
 }
-
-
-
