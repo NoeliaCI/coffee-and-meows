@@ -2,6 +2,7 @@
 
 /* asterisk to override default styles */
 
+
 * {
     margin: 0;
     padding: 0;
@@ -174,16 +175,18 @@ header>a {
 
 }
 
-#paw {
+#paw-icon {
     text-align: center;
     font-size: larger;
     margin-top: 50px;
     letter-spacing: 10px;
 }
 
+
+
 /* make main content push footer down */
 
-section {
+main {
     flex: 1 0 auto;
 }
 
@@ -247,13 +250,14 @@ hr {
     border-radius: 50%;
 }
 
-/* Rules section */
+/* House Rules section */
 
 #house-rules h2 {
     color: #A0522D;
     text-align: center;
     font-size: 180%;
-    margin-top: 20px;
+    margin-top: 30px;
+
 }
 
 #house-rules-text li {
@@ -261,12 +265,13 @@ hr {
 }
 
 #house-rules-text {
-    width: 50%;
+    width: 60%;
     font-size: 120%;
-    text-align: justify;
-
+    text-align: left;
     margin-left: 25%;
-    margin-top: 20px;
+    margin-top: 25px;
+
+
 
 }
 
@@ -281,14 +286,16 @@ footer {
     width: 100%;
     margin-top: 40px;
     background-color: #A0522D;
+    color: rgb(231, 227, 227);
 
-    border: 3px solid #57220a;
+
 
 }
 
 footer h3 {
     text-align: center;
 }
+
 footer ul {
     display: flex;
     justify-content: space-evenly;
@@ -302,12 +309,12 @@ footer div {
 
 
 th {
-    text-align: justify;  
+    text-align: justify;
 }
 
 table {
     border-spacing: 30px 0px;
-   
+
 }
 
 
@@ -333,6 +340,75 @@ table {
     width: 100%;
 }
 
+/* Contact form */
+main {
+    flex: 1 0 auto;
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+}
+
+#get-in-touch {
+    background-image: url("../images/latte-cat.jpg");
+    background-size: cover;
+    background-position: 75%;
+    width: 100%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#contact-form>h2 {
+    color: #fefefe;
+    margin-bottom: 20px;
+}
+
+#contact-form {
+    color: #fefefe;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+.text-input {
+
+    background: transparent;
+    color: #fefefe;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.text-area {
+    background: transparent;
+    color: #fefefe;
+    width: 100%;
+    height: 75px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.send-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #A0522D;
+    color: #fafafa;
+}
+/* Media queries */
+
+
+
+
+
+
+
+
+
 /* Media queries for gallery */
 
 /* Makes a two column-layout instead of three columns */
@@ -352,3 +428,6 @@ table {
         max-width: 100%;
     }
 }
+
+/* Media query: tablets and larger (768px and up) */
+/* Form */
