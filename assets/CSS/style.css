@@ -366,6 +366,7 @@ main {
     color: #fefefe;
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
+    
 }
 
 .text-input {
@@ -409,7 +410,7 @@ main {
 
 
 
-/* Media queries for gallery */
+/* gallery */
 
 /* Makes a two column-layout instead of three columns */
 
@@ -429,5 +430,23 @@ main {
     }
 }
 
-/* Media query: tablets and larger (768px and up) */
+
 /* Form */
+/* tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    #get-in-touch {
+
+    background-position: center;
+     position: relative;
+
+    }
+
+        #contact-form {
+            max-width: 400px; 
+            left: 10%;
+            top: 40px;
+            
+        }
+    
+        
+        }
